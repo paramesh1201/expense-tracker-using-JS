@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 10vh;
+    background-color: rgb(15, 15, 175);
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    color: #ccc;
+    text-align:center;
+}
+  
+  
+  input {
+    width: 20%;
+    height: 2px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #category{
+    width: 20%;
+    height: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  select option {
+    padding: 10px;
+    
+  }
+  
+  select option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  select option:selected {
+    background-color: #ccc;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 90%;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    width: 200px;
+    height: 40px;
+    background-color: #1512be;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+    
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #191864;
+  }
+  
+  #expense-list {
+    margin-top: 40px;
+  }
+  
+  #expenses {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #expenses li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #expenses li:last-child {
+    border-bottom: none;
+  }
